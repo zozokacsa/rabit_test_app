@@ -47,7 +47,7 @@ class Model
         $options = [
             // Throw an Exception when an error occurs
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
-            // Always fetch data in array.
+            // Always fetch data in object.
             PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_OBJ
         ];
         // Connecting to database
