@@ -1,0 +1,106 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;&display=swap');
+
+/* Normalize */
+
+html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+body {
+    margin: 0;
+    background: #FCFCFC;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+/* Header */
+
+header {
+    width: 100%;
+    background: white;
+
+    -webkit-box-shadow: 0 3px 10px 0 rgba(209,209,209,1);
+    -moz-box-shadow: 0 3px 10px 0 rgba(209,209,209,1);
+    box-shadow: 0 3px 10px 0 rgba(209,209,209,1);
+}
+
+/* Navigation */
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    padding: 15px;
+    text-decoration: none;
+    color: #15ADE0;
+    transition: background, color .4s;
+}
+
+header nav ul li a:hover {
+    background: #1190BB;
+    color: white;
+}
+
+/* Main */
+
+main {
+    width: 100%;
+    max-width: 1440px;
+    margin: 30px auto;
+    padding: 30px;    
+    background: white;
+    border-radius: 5px;
+    
+    -webkit-box-shadow: 0 3px 10px 0 rgba(209,209,209,1);
+    -moz-box-shadow: 0 3px 10px 0 rgba(209,209,209,1);
+    box-shadow: 0 3px 10px 0 rgba(209,209,209,1);
+}
+
+main ul {
+    list-style-type: square;
+}
+
+main ul li i {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+/* Buttons */
+
+.buttons {
+    display: block;
+}
+
+.buttons .button {
+    padding: 10px 15px;
+    background-color: #15ADE0;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color .3s;
+}
+
+.buttons .button:hover {
+    background-color: #1190BB;
+}
