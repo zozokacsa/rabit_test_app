@@ -29,6 +29,14 @@
                 <?php endforeach; ?>
             </ul>
         <?php endif; ?>
+
+        <?php if($users) : ?>
+            <ul>
+            <?php foreach($users as $user) : ?>
+                <li><?php echo $user->name; ?></li>
+            <?php endforeach; ?>
+            </ul>
+        <?php endif; ?>
     </main>
 </body>
 </html>

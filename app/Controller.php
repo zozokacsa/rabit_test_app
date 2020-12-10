@@ -30,7 +30,7 @@ class Controller
      */
     public function users()
     {
-        View::render('users', [
+        View::render('list', [
             'title' => 'Users List',
             'users' => Model::getAllUser()
             ]
@@ -44,7 +44,7 @@ class Controller
      */
     public function advertisements()
     {
-        View::render('advertisements', [
+        View::render('list', [
             'title' => 'Advertisements List',
             'advertisements' => Model::getAllAdvertisement()
             ]
