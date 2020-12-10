@@ -8,7 +8,7 @@ class View
      * Method for rendering view file.
      *
      * @param string $view
-     * @param array $args
+     * @param array $data
      * @return void
      */
     public static function render($view, $data = [])
